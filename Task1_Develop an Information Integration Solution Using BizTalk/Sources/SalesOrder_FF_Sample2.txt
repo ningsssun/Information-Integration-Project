@@ -1,0 +1,4 @@
+71,12345678901,Cash,APinto,Contoso LTD.,17,1200,0,200
+BOTTOKeith Harris             34  100 Mercer               Seattle   WA98110
+PRODUCTS,PRODUCT|1|757575757575|200.00,PRODUCT|4|131313131313|42.00
+Comment

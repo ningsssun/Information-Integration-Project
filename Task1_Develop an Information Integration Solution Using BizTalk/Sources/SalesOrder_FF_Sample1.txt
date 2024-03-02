@@ -1,0 +1,9 @@
+71,12345678901,Cash,APinto,368
+BOTTOKeith Harris             34  100 Mercer               Seattle   WA98110
+PRODUCTS,PRODUCT|1|c200.00,PRODUCT|4|131313131313|42.00
+Comment
+
+
+
+
+s
