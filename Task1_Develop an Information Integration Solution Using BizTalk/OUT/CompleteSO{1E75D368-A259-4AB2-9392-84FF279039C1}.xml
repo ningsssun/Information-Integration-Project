@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ns1:SalesOrder xmlns:ns1="http://Messaging.SalesOrder" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns:ns0="http://Messaging.PropertySchema.PropertySchema" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-01-18T20:30:49">
+  <Detail StoreNumber="6" Employee="10" OrderNumber="9899761234" OrderType="CASH" OrderDate="2005-10-31" />
+  <CustomerInfo ID="braua" CustomerName="Art Braunschweiger" MonthsAtResidence="7">
+    <Residence>
+		<Street>PO Box 27</Street>
+		<City>Redmond</City>
+		<State>WA</State>
+		<PostalCode>98052</PostalCode>
+	</Residence>
+    <BillingAddress>
+		<Street>PO Box 27</Street>
+		<City>Redmond</City>
+		<State>WA</State>
+		<PostalCode>98052</PostalCode>
+	</BillingAddress>
+    <Income Employer="Contoso" MonthsEmployed="12">
+      <MonthlyIncome Primary="800" Other="1200" />
+    </Income>
+  </CustomerInfo>
+  <Items>
+    <Item Qty="1" SKU="15347541324" Price="300" ExtendedPrice="300" />
+  </Items>
+  <Comment>Processing of this order is now complete</Comment>
+  <OrderTotal>300</OrderTotal>
+  <TermOfLoan>6</TermOfLoan>
+</ns1:SalesOrder>

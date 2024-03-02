@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ns1:SalesOrder xmlns:ns1="http://Messaging.SalesOrder" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns:ns0="http://Messaging.PropertySchema.PropertySchema" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-01-18T20:30:49">
+	<Detail StoreNumber="10" Employee="1512" OrderNumber="15248536759" OrderType="CASH" OrderDate="2006-01-02"></Detail>
+	<CustomerInfo ID="ArmaP" CustomerName="Armando Pinto" MonthsAtResidence="12">
+		<Residence>
+			<Street>1776 Independence Ave</Street>
+			<City>Redmond</City>
+			<State>WA</State>
+			<PostalCode>98052</PostalCode>
+		</Residence>
+		<BillingAddress>
+			<Street>1176 Independence Ave</Street>
+			<City>Redmond</City>
+			<State>WA</State>
+			<PostalCode>98052</PostalCode>
+		</BillingAddress>
+		<Income Employer="Contoso LTD" MonthsEmployed="24">
+			<MonthlyIncome Primary="3500" Other=""></MonthlyIncome>
+		</Income>
+	</CustomerInfo>
+	<Items>
+		<Item Qty="1" SKU="212546568465" Price="15.99" ExtendedPrice="15.99"></Item>
+	</Items>
+	<Comment>Processing of this order is now complete</Comment>
+	<OrderTotal>15.99</OrderTotal>
+	<TermOfLoan></TermOfLoan>
+</ns1:SalesOrder>
