@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:SalesOrder xmlns:ns1="http://Messaging.SalesOrder" xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns:ns0="http://Messaging.PropertySchema.PropertySchema" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-01-18T20:30:49">
+  <Detail StoreNumber="4" Employee="15" OrderNumber="1524863578" OrderType="CRED" OrderDate="2006-1-05"/>
+  <CustomerInfo ID="ArmaP" CustomerName="Armando Pinto" MonthsAtResidence="12">
+    <Residence>
+		<Street>1024 Grover Street</Street>
+		<City>Redmond</City>
+		<State>WA</State>
+		<PostalCode>98052</PostalCode>
+	</Residence>
+    <BillingAddress>
+		<Street>1024 Grover Street</Street>
+		<City>Redmond</City>
+		<State>WA</State>
+		<PostalCode>98052</PostalCode>
+	</BillingAddress>
+    <Income Employer="Contoso" MonthsEmployed="12">
+      <MonthlyIncome Primary="800" Other="1200"/>
+    </Income>
+  </CustomerInfo>
+  <Items>
+    <Item Qty="1" SKU="12534685752" Price="1450" ExtendedPrice="1450"/>
+  <Item Qty="2" SKU="21547513546457" Price="25" ExtendedPrice="50"></Item></Items>
+  <Comment>This was a great deal!</Comment>
+  <OrderTotal>1500</OrderTotal>
+  <TermOfLoan>6</TermOfLoan>
+</ns1:SalesOrder>
